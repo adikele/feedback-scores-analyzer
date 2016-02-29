@@ -1,9 +1,11 @@
 # feedback-scores-analyzer
 Name of Project: Feedback Analyser
 
-Description: This project looks at a situation where a university's administration desires feedback from students about courses they have been enrolled to. Students have been invited to a discussion room where they write their feedback on a scale of 0 - 5 on a sheet of paper. The administration asks them to write their names so as to authenticate the students' details. The responses are collected on an excel sheet called "feedback scores". Another sheet "enrollments" lists the names of all students who had enrolled for the courses (the courses for which feeback is sought).
+Working Code file name: Feedback Analyzer draft1.py
 
-This program is designed to find the average of the feedback scores for the courses for which feedback was sought. However, before the averaging operation, the data must be subject to certain cleaning operations. The project looks at two hypothetical situaions where data cleaning is desired. In the first case, students who are not part of the university have filled up the feedback forms and in the second case students of university have given feedback even though they are not enrolled on a certain course.
+Description: This project looks at a situation where a university's administration desires feedback from students about courses they have been enrolled to. Students have been invited to a discussion room where they write their feedback on a scale of 0 - 5 on a sheet of paper. The administration asks them to write their names so as to authenticate the students' details. The responses are collected on an excel sheet called "feedback scores". Another sheet "enrollments" lists the names of all students who had enrolled for the courses (the courses for which feedback is sought).
+
+This program is designed to find the average of the feedback scores for the courses for which feedback was sought. However, before the averaging operation, the data must be subject to certain cleaning operations. The project looks at two hypothetical situations where data cleaning is desired. In the first case, students who are not part of the university have filled up the feedback forms and in the second case students of university have given feedback even though they are not enrolled on a certain course.
 
 Phase 1:
 In Phase 1, data from the excel sheets has been compiled in two dictionaries: dict d1 and dict 2.
